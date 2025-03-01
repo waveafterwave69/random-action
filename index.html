@@ -1,0 +1,51 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Рандом</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="main-content">
+                <div class="main-content__input">
+                    <input type="text" placeholder="Введите текст" class="main-input">
+                    <button class="main-btn"><img src="./img/plus.png" alt=""></button>
+                </div>
+                <img src="./img/kubiki.png" alt="" class="img-1">
+                <img src="./img/kubik.png" alt="" class="img-2">
+                <ul class="actions-list">
+                    <li class="actions-list__item">Спать</li>
+                    <li class="actions-list__item">Идти в магазин</li>
+                    <li class="actions-list__item">Воркать</li>
+                    <li class="actions-list__item">Воркать</li>
+                    <li class="actions-list__item">Воркать</li>
+                    <li class="actions-list__item">Воркать</li>
+                    <li class="actions-list__item">Воркать</li>
+                    <li class="actions-list__item">Воркать</li>
+                </ul>
+                <div class="main-content__random">
+                    <button class="random-btn">Случайное</button>
+                    <div class="random-el">Воркать</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
