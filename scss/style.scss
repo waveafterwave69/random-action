@@ -161,10 +161,17 @@ body {
     background-color: #fff;
     color: #515151;
     box-shadow: 0 4px 4px #00000038;
-    padding: 15px 40px;
+    padding: 15px 30px;
     border-radius: 20px;
     font-size: 32px;
     font-weight: 200;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    & img {
+        position: relative;
+        top: 4px;
+    }
 }
 
 .main-content__random {
@@ -252,6 +259,10 @@ body {
     .actions-list__item {
         padding: 12px 30px;
         font-size: 26px;
+        & img {
+            top: 2px;
+            width: 14px;
+        }
     }
 
     .main-content__random {
@@ -286,13 +297,13 @@ body {
     .main-content__input {
         margin-top: 35px;
         margin-bottom: 30px;
-        padding: 5px 25px;
+        padding: 3px 25px;
         max-width: 400px;
     }
 
     .main-input {
         font-size: 22px;
-        padding: 8px 30px;
+        padding: 5px 30px;
     }
 
     .main-btn img {
@@ -306,8 +317,13 @@ body {
     }
 
     .actions-list__item {
-        padding: 5px 20px;
-        font-size: 22px;
+        padding: 5px 15px;
+        font-size: 21px;
+        column-gap: 10px;
+        & img {
+            top: 2px;
+            width: 12px;
+        }
     }
 
     .main-content__random {
