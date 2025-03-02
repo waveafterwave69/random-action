@@ -115,8 +115,7 @@ legend {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d9843a), to(#faf56c));
-  background: linear-gradient(#d9843a, #faf56c);
+  background: linear-gradient(70deg, #ff4646, #ffffff);
   color: #fff;
   font-size: 24px;
   font-family: "Oswald", serif;
@@ -138,7 +137,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #515151;
+  color: #444444;
   margin-bottom: 50px;
   max-width: 600px;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2196078431);
@@ -170,7 +169,7 @@ body {
 
 .actions-list__item {
   background-color: #fff;
-  color: #515151;
+  color: #444444;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2196078431);
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2196078431);
   padding: 15px 30px;
@@ -211,27 +210,25 @@ body {
   padding: 15px 205px;
   border-radius: 35px;
   margin: 0 auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d44444), to(#6e2323));
-  background: linear-gradient(#d44444, #6e2323);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fd5858), to(#ac3a3a));
+  background: linear-gradient(#fd5858, #ac3a3a);
   font-size: 40px;
   margin-bottom: 50px;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2196078431);
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2196078431);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
   max-width: 635px;
 }
-.random-btn:hover {
+.random-btn:active {
   -webkit-box-shadow: 0 0 15px 3px #ffffff;
           box-shadow: 0 0 15px 3px #ffffff;
 }
 
 .random-el {
-  color: #900000;
+  color: #aa0808;
   padding: 15px 100px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 4px 50px 5px #a50000;
-          box-shadow: 0 4px 50px 5px #a50000;
+  -webkit-box-shadow: 0 4px 50px 2px #ac0505;
+          box-shadow: 0 4px 50px 2px #ac0505;
   margin: 0 auto;
   background-color: #fff;
   font-size: 42px;
@@ -340,9 +337,9 @@ body {
   .actions-list__item {
     padding: 5px 15px;
     font-size: 21px;
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
+    -webkit-column-gap: 12px;
+       -moz-column-gap: 12px;
+            column-gap: 12px;
   }
   .actions-list__item img {
     top: 2px;
